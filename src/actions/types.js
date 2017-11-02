@@ -1,4 +1,5 @@
 export default {
-    GET_ALL: 'get_all'
+    GET_ALL: 'get_all',
+    ADD_TODO: 'add_todo'
 };
 
