@@ -12,3 +12,12 @@ export function getAll(){
         }
     );
 }
+
+export function addTodo(item){
+    return (
+        {
+            type: types.ADD_TODO,
+            payload: item
+        }
+    );
+}
